@@ -1,0 +1,30 @@
+{
+    "name": "citrium/exceptions",
+    "description": "Exceptions package for Citrium",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "ramsey/uuid": "3.7|^4.0",
+        "laravel/framework": "^7.24"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Citrium\\Exceptions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Citrium\\Exceptions\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Phil Cross",
+            "email": "p.cross@live.co.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
