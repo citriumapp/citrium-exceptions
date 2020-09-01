@@ -1,5 +1,5 @@
 {
-    "name": "citrium/exceptions",
+    "name": "citriumapp/citrium-exceptions",
     "description": "Exceptions package for Citrium",
     "type": "library",
     "require": {
